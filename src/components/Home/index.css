@@ -1,0 +1,66 @@
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (min-width: 768px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    padding: 30px;
+  }
+}
+.home-sub-container {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .home-sub-container {
+    width: 600px;
+  }
+}
+
+.home-name-style {
+  font-family: 'Roboto';
+  font-size: 27px;
+  font-weight: 700;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .home-name-style {
+    font-size: 55px;
+  }
+}
+.home-description-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+@media screen and (min-width: 768px) {
+  .home-description-style {
+    font-size: 25px;
+  }
+}
+.home-button-style {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #f8fafc;
+  height: 35px;
+  width: 120px;
+  background-color: #4f46e5;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .home-button-style {
+    font-size: 20px;
+    height: 45px;
+    width: 150px;
+  }
+}

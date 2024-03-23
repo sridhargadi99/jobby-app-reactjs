@@ -1,0 +1,113 @@
+.login-background-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .login-background-container {
+    align-items: center;
+  }
+}
+
+.login-card-container {
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .login-card-container {
+    width: 450px;
+  }
+}
+.login-logo-style {
+  align-self: center;
+  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .login-logo-style {
+    height: 45px;
+  }
+}
+.login-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+.label-style {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .label-style {
+    font-size: 17px;
+  }
+}
+.input-style {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #64748b;
+  height: 32px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8fafc;
+  padding-left: 15px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .input-style {
+    height: 40px;
+    font-size: 17px;
+  }
+}
+.submit-button-style {
+  height: 30px;
+  flex-grow: 1;
+  margin-top: 20px;
+  background-color: #4f46e5;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .submit-button-style {
+    height: 40px;
+    font-size: 17px;
+  }
+}
+.error-message-style {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff0b37;
+  line-height: 1.2;
+}
+@media screen and (min-width: 768px) {
+  .error-message-style {
+    font-size: 16px;
+  }
+}

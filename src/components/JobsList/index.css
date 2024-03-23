@@ -1,0 +1,142 @@
+.job-list-style {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .job-list-style {
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+}
+.link-styling {
+  text-decoration: none;
+}
+.job-list-container1 {
+  display: flex;
+  align-items: center;
+}
+.title-logo-style {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .title-logo-style {
+    height: 70px;
+    width: 70px;
+  }
+}
+.title-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .title-style {
+    font-size: 24px;
+  }
+}
+.job-list-container2 {
+  display: flex;
+  align-items: center;
+}
+.star-style {
+  font-size: 20px;
+  margin-right: 10px;
+  color: yellow;
+}
+@media screen and (min-width: 768px) {
+  .star-style {
+    font-size: 25px;
+  }
+}
+.rating-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .rating-style {
+    font-size: 22px;
+  }
+}
+.job-list-container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-list-container4 {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+.list-style {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.icon-image-style {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .icon-image-style {
+    font-size: 25px;
+  }
+}
+.icon-content-style {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .icon-content-style {
+    font-size: 18px;
+  }
+}
+.package-style {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .package-style {
+    font-size: 20px;
+  }
+}
+.job-hr-style {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+}
+.description-heading-style {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 700;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .description-heading-style {
+    font-size: 27px;
+  }
+}
+.description-content-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .description-heading-style {
+    font-size: 22px;
+  }
+}
